@@ -119,4 +119,5 @@ def play(board)
 #   tell the players it has been a draw
 # end
 input = gets
+over?(board)
 end
