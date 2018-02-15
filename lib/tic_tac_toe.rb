@@ -125,7 +125,7 @@ end
 
 if won?(board)
   puts "Congratulations #{winner(board)}!"
-elseif draw?(board)
+elsif draw?(board)
   puts "Cat's Game!"
  end
 end
