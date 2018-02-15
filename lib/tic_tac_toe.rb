@@ -118,6 +118,9 @@ def play(board)
 # else if the game was a draw
 #   tell the players it has been a draw
 # end
-input = gets
-over?(board)
+# input = gets
+until over?(board)
+  turn(board)
+end
+
 end
